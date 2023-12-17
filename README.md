@@ -17,7 +17,6 @@ Front-end Task.
 ## Implementation Details
 
 ### Solution
-After that we started the implementation with the help of the provided examples in the docs.
 
 This function is designed to play frames in synchronization and pause when clicked again.
 ```javaScript
