@@ -4,7 +4,6 @@
 - [Description](#description)
 - [Samples](#samples)
 - [Implementation Details](#implementation-details)
-    - [Thought Process](#thought-process)
     - [Solution](#solution)
 
 
@@ -12,7 +11,7 @@
 Front-end Task.
 
 ## Samples
-![Demo Sample](https://github.com/Sandra-Essa/Front_End_Task/blob/main/Front%20End%20Task.gif))
+![Demo Sample](https://github.com/Sandra-Essa/Front_End_Task/blob/main/Front%20End%20Task.gif)
 
 
 ## Implementation Details
