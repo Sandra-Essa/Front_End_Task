@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Animation Playground</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="Task.css">
+</head>
+<body>
+  <div id="football-goal">
+    <div id="field">
+      <div id="tooltip"></div>
+      
+      <div class="middle-line"></div>
+      <div id="left-goal"></div>
+      <div id="right-goal"></div>
+    </div>
+  </div>
+
+  <div id="controls">
+   
+    <button onclick="prevFrame()"><i class="fas fa-step-backward"></i></button>
+    <button onclick="playPause()"><i class="fas fa-play"></i></button>
+    <button onclick="nextFrame()"><i class="fas fa-step-forward"></i></button>
+    <input type="range" id="progress" min="0" max="100" value="0" step="1" oninput="updatePlayerPosition()">
+  </div>
+
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-soccer/dist/d3-soccer.min.js"></script>
+  <script src="Task.js"></script>
+</body>
+</html>
