@@ -1,5 +1,5 @@
 # Front_End_Task
-# 3D medical viewer (VTK) 
+ 
 
 - [Description](#description)
 - [Samples](#samples)
